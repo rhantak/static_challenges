@@ -1,0 +1,41 @@
+#header {
+  background: red;
+  padding: 5px;
+  color: white;
+}
+
+.link {
+  color: white;
+  padding: 5px;
+}
+
+#navbar {
+  padding: 10px;
+  background: #3E3634;
+  text-align: right;
+}
+
+#main {
+  display:flex;
+  flex-direction:row;
+}
+
+#left {
+  width: 75%;
+  float: left;
+  padding: 20px;
+  display:flex;
+  flex-direction:column;
+}
+
+#right {
+  padding: 20px;
+  display:flex;
+  flex-direction:column;
+}
+
+#footer {
+  padding: 10px;
+  background: #3E3634;
+  color: white;
+}
